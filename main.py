@@ -26,7 +26,6 @@ def main(path=sys.argv[1], tar_dir=sys.argv[2]):
 
 
 if __name__ == '__main__':
-    print(sys.argv)
     if len(sys.argv) != 3:
         print('python3 main.py [files_path] [target_path]')
         sys.exit()
